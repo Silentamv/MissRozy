@@ -28,9 +28,9 @@ if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
     URL = "http://{}/".format(FQDN)
-UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
+UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', '-1002097432152'))
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-STREAM_LOGS = environ.get('STREAM_LOGS','-1002097432152')
+STREAM_LOGS = environ.get('STREAM_LOGS','-1002007510451')
 SESSION = environ.get('SESSION','MissRozy')
 CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
@@ -38,13 +38,13 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", 27505575))
 	API_HASH = os.environ.get("API_HASH", "03bbc5e15dbddfb03fb953435b5eb028")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","7028356497:AAHCPHEUFSUGYCi9UbJo1yk_okQax4oAze0")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7028356497:AAGcawXxGHWTE2a2-zR_AE52-QYqy3Tzrtk")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "silentfilestorebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002007510451))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "2056329003"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Aru:VXLPtm8IhOMMklOR@atlascluster.btk4mu1.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002007510451")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002097432152")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002097432152")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002132361598")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -64,7 +64,7 @@ class Config(object):
 ᴛʜɪꜱ ɪꜱ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ!
 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ɪ ᴡɪʟʟ ꜱᴀᴠᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ. ᴀʟꜱᴏ ᴡᴏʀᴋꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴀꜱ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴇᴅɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ, ɪ ᴡɪʟʟ ᴀᴅᴅ ꜱᴀᴠᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ᴀᴅᴅ ꜱʜᴀʀᴀʙʟᴇ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ.
 
-🤖 *ᴍʏ ɴᴀᴍᴇ:* [ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ](https://t.me/{BOT_USERNAME})
+🤖 *ᴍʏ ɴᴀᴍᴇ:* [ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ](https://t.me/silentfilestorebot)
 
 📝 *ʟᴀɴɢᴜᴀɢᴇ:* [PУΓHФИ3](https://www.python.org)
 
