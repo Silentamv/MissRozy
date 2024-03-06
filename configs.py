@@ -45,6 +45,8 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7028356497:AAGcawXxGHWTE2a2-zR_AE52-QYqy3Tzrtk")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "silentfilestorebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002007510451))
+	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "ziplinker.net")
+        SHORTLINK_API = os.environ.get('SHORTLINK_API', "760615c59a2a8723d5b2e85a8ccc42f58170fecc")
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "2056329003"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Aru:VXLPtm8IhOMMklOR@atlascluster.btk4mu1.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002097432152")
