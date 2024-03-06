@@ -58,7 +58,7 @@ class Config(object):
   # LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE","{file_name} - example \n\n Please Upadate this template acording to you @LazyDeveloperr ")
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 20))
+	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 60))
 
 	ABOUT_BOT_TEXT = f"""
 ᴛʜɪꜱ ɪꜱ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ!
@@ -72,16 +72,16 @@ class Config(object):
 
 📡 *ʜᴏꜱᴛᴇᴅ ᴏɴ:* [koyeb](https://app.koyeb.com)
 
-🧑🏻‍💻 *DΞVΞLФPΞЯ:* [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢r](https://t.me/silent_amv)
+🧑🏻‍💻 *DΞVΞLФPΞЯ:* [ARU](https://t.me/silent_amv)
 
-👥 *Movie gr⊕up:* [LazY-SupP⊕ЯΓ](https://t.me/movieseriesanimehindi)
+👥 *Movie gr⊕up:* [ARU MOVIE](https://t.me/movieseriesanimehindi)
 
-📢 *Anime Group:* [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢](https://t.me/anime_movies_series_hindi_dub)
+📢 *Anime Group:* [ARU ANIME](https://t.me/anime_movies_series_hindi_dub)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 <a href='https://t.me/silent_amv'>*ミ★- ARU-★彡* </a>
 
-<a href=''https://t.me/silent_amv>ARU</a> ɪꜱ ꜱᴜᴘᴇʀ ɴᴏᴏʙ 😎. ᴊᴜꜱᴛ ʟᴇᴀʀɴɪɴɢ ꜰʀᴏᴍ ᴏꜰꜰɪᴄɪᴀʟ ᴅᴏᴄꜱ. Main credit goes to @LazyDe.veloperr .
+<a href=''https://t.me/silent_amv>ARU</a> ɪꜱ ꜱᴜᴘᴇʀ ɴᴏᴏʙ 😎. ᴊᴜꜱᴛ ʟᴇᴀʀɴɪɴɢ ꜰʀᴏᴍ ᴏꜰꜰɪᴄɪᴀʟ ᴅᴏᴄꜱ. Main credit goes to @LazyDeveloperr .
 ᴀʟꜱᴏ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛꜱ ꜰʀᴏᴍ ᴅᴀᴛᴀʙᴀꜱᴇ. ꜱᴏ ʙᴇᴛᴛᴇʀ ᴅᴏɴ'ᴛ ꜱᴛᴏʀᴇ ᴛʜᴏꜱᴇ ᴋɪɴᴅ ᴏꜰ ᴛʜɪɴɢꜱ.
 """
 	LAZY_HOME_TEXT = """
@@ -97,7 +97,6 @@ HΞУ, [{}](tg://user?id={})\n\nɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ *ꜰɪʟᴇ 
 
 ミ★ 𝘚𝘦𝘯𝘥 𝘮𝘦 𝘢𝘯𝘺 𝘧𝘪𝘭𝘦 𝘐 𝘸𝘪𝘭𝘭 𝘨𝘪𝘷𝘦 𝘺𝘰𝘶 𝘢 𝘱𝘦𝘳𝘮𝘢𝘯𝘦𝘯𝘵 𝘚𝘩𝘢𝘳𝘢𝘣𝘭𝘦 𝘓𝘪𝘯𝘬. 𝘐 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘈𝘭𝘴𝘰! 𝘊𝘩𝘦𝘤𝘬 *A͢b͢o͢u͢t͢ B͢o͢t͢*  𝘉𝘶𝘵𝘵𝘰𝘯 .
 
-«[⚡𝙇𝙖𝙯𝙮 𝙢𝙤𝙙𝙚 𝙨𝙩𝙖𝙩𝙪𝙨 : 𝘋𝘐𝘚𝘈𝘉𝘓𝘌𝘋💢]»
  😏𝙣𝙤𝙬 𝙞𝙩𝙨 𝙖𝙡𝙡 𝙪𝙥𝙤𝙣 𝙪 𝙗𝙖𝙗𝙮👍
 """
 
