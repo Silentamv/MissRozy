@@ -34,6 +34,10 @@ STREAM_LOGS = environ.get('STREAM_LOGS','-1002007510451')
 SESSION = environ.get('SESSION','MissRozy')
 CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
+# Auto Delete Information
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "1")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "60")) # Time in Seconds
+
 
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", 27505575))
